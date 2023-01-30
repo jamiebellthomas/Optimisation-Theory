@@ -13,7 +13,7 @@ legend
 mins2 = []
 deltas = []
 for k = -50:50
-results = []
+results = [];
 for i = 1:10000
 results = [results eddieSecretFunction([k;0])];
 end
