@@ -7,6 +7,7 @@ dummyy = linspace(-512,512,500);
 zz = -1.*(yy+47).*sin((abs(0.5.*xx+yy+47)).^0.5)-xx.*sin(((abs(xx-(yy+47))).^0.5));
 % s = surf(xx,yy,zz)
 %%
+% Change
 p = contour(xx,yy,zz);
 hold on
 bigIt = 0
